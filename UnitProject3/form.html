@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- 
+	Student Name: Tromen Agustin Villalba
+	File Name: form.html
+	Today's Date: 11/17/2024
+ -->
+<html lang="en">
+<head>
+	<title>Racing Club</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Emblema+One|Lora&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/faviconRC.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32RC.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-iconRC.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192RC.png">
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <header>
+            <div class="tab-desk">
+              <a href="index.html"><img src="images/Hinchada-Racing-Club-A.jpg" alt="Hinchada Racing"></a>
+            </div>
+            <div class="mobile">
+                <h1>Racing Club</h1>
+                <h3>La Academia, La Acade...</h3>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>  
+                <li><a href="fees.html">Fees</a></li> 
+                <li><a href="form.html">Form</a></li>
+				<li><a href="video.html">Video</a></li> 
+            </ul>
+        </nav>
+
+        <!-- Use the main area to add the main content to the webpage -->
+        <main>
+
+            <div id="contact">
+
+                <h2>You can reach us at:</h2>
+                <p class="tel-link round mobile"><a href="tel:7089967878">(708) 996-7878</a></p>
+                <p class="tab-desk">(708) 996-7878</p>
+                <p>Email: <a href="mailto:tromen.villalba@southeasttech.edu" class="link">tromen.villalba@southeasttech.edu</a></p>
+                <p>Address: <a href="https://www.google.com/maps/place/Estadio+Presidente+Per%C3%B3n/@-34.667502,-58.3685588,15z/data=!4m6!3m5!1s0x95bccceccdd8d455:0xe771f022c22a954b!8m2!3d-34.667502!4d-58.3685588!16zL20vMDhid2N4?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" class="link">Diego A. Milito, B1870 Avellaneda, Provincia de Buenos Aires, Argentina</a></p>
+
+            </div>
+			
+			<div id="form">
+				
+				<h2>Complete the form below and we will contact you soon.</h2>
+				
+				<form class="form-grid"><!-- Start Form -->
+				
+					<fieldset>
+						<legend>Contact Information</legend>
+						<label for="fName">First Name:</label>
+						<input type="text" id="fName" name="fName">
+						
+						<label for="lName">Last Name:</label>
+						<input type="text" id="lName" name="lName">
+						
+						<label for="=fPlayer">Favorite player:</label>
+						<input type="text" id="fPlayer" name="fPlayer">
+						
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email">
+						
+						<label for="phone">Phone:</label>
+						<input type="tel" id="phone" name="phone">
+						
+						<label for="address">Address:</label>
+						<input type="text" id="address" name="address">
+					</fieldset>
+					
+					<fieldset>
+						<legend>Additional Information</legend>
+						<p>I would like more information about:</p>
+						
+						<label for="6"><input type="radio" name="info" id="6" value="6 matches">6 matches</label>
+						
+						<label for="12 matches"><input type="radio" name="info" id="12" value="12 matches">12 matches</label>
+						
+						<label for="18 matches"><input type="radio" name="info" id="18" value="18 matches">18 matches</label>
+						
+						<label for="24 matches"><input type="radio" name="info" id="24" value="24 matches">24 matches.</label>
+						
+						<label for="30 matches"><input type="radio" name="info" id="30" value="30 matches">30 matches.</label>
+						
+						<label for="36 matches"><input type="radio" name="info" id="36" value="36 matches">36 matches.</label>
+						
+						<label for="other"><input type="radio" name="info" id="other" value="Other">Other, please specify below.</label>
+						
+						<label for="questions">What questions do you have for us?</label>
+						<textarea name="questions" id="questions" rows="5" cols="35"></textarea>
+					</fieldset>
+					
+					<input type="submit" id="submit" value="Submit" class="btn">
+					
+					<input type="reset" id="reset" value="Reset" class="btn">
+					
+				</form>
+			</div>
+
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2024. All Rights Reserved.</p>
+            <p><a href="mailto:tromen.villalba@southeasttech.edu">tromen.villalba@southeasttech.edu</a></p>
+        </footer>
+        
+    </div>
+	
+</body>
+</html>
